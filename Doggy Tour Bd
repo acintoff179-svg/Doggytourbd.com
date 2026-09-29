@@ -1,1 +1,270 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RED TOPUP & E-SPORTS</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0b0e14;
+            --card-bg: #151922;
+            --card-border: #222a38;
+            --accent-color: #ff3366;
+            --secondary-color: #00e676;
+            --text-color: #ffffff;
+            --text-gray: #94a3b8;
+        }
 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding-bottom: 40px;
+        }
+
+        header {
+            background: #151922;
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--card-border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .brand-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .site-logo {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            background: var(--accent-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .brand-text h1 {
+            font-size: 16px;
+            color: #fff;
+        }
+
+        .brand-text p {
+            font-size: 10px;
+            color: var(--text-gray);
+        }
+
+        .container {
+            max-width: 480px;
+            margin: 0 auto;
+            padding: 15px;
+        }
+
+        /* App Download Section */
+        .download-card {
+            background: linear-gradient(135deg, #1f2937, #111827);
+            padding: 16px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 20px;
+            border: 1px solid var(--secondary-color);
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: var(--secondary-color);
+            color: #000;
+            width: 100%;
+            padding: 12px;
+            font-weight: bold;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        /* Matches */
+        .section-title {
+            font-size: 15px;
+            margin-bottom: 12px;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 8px;
+        }
+
+        .tournament-card {
+            background-color: var(--card-bg);
+            border-radius: 10px;
+            padding: 12px;
+            margin-bottom: 12px;
+            border: 1px solid var(--card-border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .match-info h3 {
+            font-size: 14px;
+            color: #fff;
+        }
+
+        .match-info p {
+            font-size: 12px;
+            color: var(--text-gray);
+            margin-top: 2px;
+        }
+
+        .join-btn {
+            background: var(--accent-color);
+            color: white;
+            padding: 8px 14px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        /* Wallet Section */
+        .wallet-card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 16px;
+            margin-top: 20px;
+            border: 1px solid var(--card-border);
+        }
+
+        .number-box {
+            background-color: #0b0e14;
+            padding: 10px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 0 15px 0;
+            border: 1px dashed var(--secondary-color);
+        }
+
+        .number-box span {
+            font-size: 16px;
+            font-weight: bold;
+            color: var(--secondary-color);
+        }
+
+        .copy-btn {
+            background-color: #222d3d;
+            color: #fff;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .submit-btn {
+            width: 100%;
+            background: var(--secondary-color);
+            color: #000;
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 14px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="brand-info">
+            <div class="site-logo"><i class="fa-solid fa-gamepad"></i></div>
+            <div class="brand-text">
+                <h1>RED TOPUP & E-SPORTS</h1>
+                <p>খেলুন এবং প্রতিদিন আয় করুন</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- App Download Option -->
+        <div class="download-card">
+            <h3><i class="fa-brands fa-android" style="color: #00e676;"></i> অফিশিয়াল অ্যাপ ডাউনলোড</h3>
+            <p style="font-size: 12px; color: var(--text-gray); margin-top: 4px;">সহজ গেমিং ও ইনস্ট্যান্ট পেমেন্টের জন্য অ্যাপটি ডাউনলোড করুন।</p>
+            <!-- আপনার APK ফাইলের নাম app-release.apk হলে সেটি রুট ফোল্ডারে রেখে এখানে লিংক দিন -->
+            <a href="app-release.apk" download class="download-btn">
+                <i class="fa-solid fa-download"></i> অ্যাপ ইনস্টল করুন (.APK)
+            </a>
+        </div>
+
+        <!-- Tournaments -->
+        <h2 class="section-title">লাইভ টুর্নামেন্ট সমূহ</h2>
+
+        <div class="tournament-card">
+            <div class="match-info">
+                <h3>ফ্রি ফায়ার ১ বনাম ১ সোলো</h3>
+                <p>এন্ট্রি ফি: ২০ টাকা | পুরস্কার: ৩৫ টাকা</p>
+            </div>
+            <!-- জয়েন বাটনে ক্লিক করলে আপনার টেলিগ্রাম বা হোয়াটসঅ্যাপে নিয়ে যাবে -->
+            <a href="https://t.me/your_username" target="_blank" class="join-btn">জয়েন করুন</a>
+        </div>
+
+        <div class="tournament-card">
+            <div class="match-info">
+                <h3>ফ্রি ফায়ার ৪ বনাম ৪ সিএস ম্যাচ</h3>
+                <p>এন্ট্রি ফি: ৫০ টাকা | পুরস্কার: ৯০ টাকা</p>
+            </div>
+            <a href="https://t.me/your_username" target="_blank" class="join-btn">জয়েন করুন</a>
+        </div>
+
+        <!-- Deposit & Verification Section -->
+        <div class="wallet-card">
+            <h2 class="section-title">ডিপোজিট ও টাকা জমা</h2>
+            <p style="font-size: 12px; color: var(--text-gray);">নিচের নম্বরে বিকাশ/নগদ থেকে সেন্ড মানি করুন:</p>
+            
+            <div class="number-box">
+                <span id="sendMoneyNumber">01962575788</span>
+                <button class="copy-btn" onclick="copyNumber()">কপি করুন</button>
+            </div>
+
+            <p style="font-size: 12px; color: var(--text-gray); margin-bottom: 10px;">
+                টাকা পাঠানোর পর নিচের বাটনে ক্লিক করে ট্রানজেকশন তথ্য জমা দিন।
+            </p>
+
+            <!-- গুগল ফর্মের লিংক এখানে বসিয়ে দিন -->
+            <a href="https://forms.google.com" target="_blank" class="submit-btn">
+                <i class="fa-solid fa-paper-plane"></i> পেমেন্ট প্রুফ জমা দিন (Google Form)
+            </a>
+        </div>
+
+    </div>
+
+    <script>
+        function copyNumber() {
+            const number = document.getElementById("sendMoneyNumber").innerText;
+            navigator.clipboard.writeText(number);
+            alert("নম্বর কপি করা হয়েছে: " + number);
+        }
+    </script>
+</body>
+</html>
